@@ -38,10 +38,11 @@ AUTH_CONFIG = {
 
     # E.g. Local Dev Env on port 8080: http://localhost:8080
     # E.g. Hosted on App Engine: https://your-application-id.appspot.com
-    'OAUTH_REDIRECT_URI': '%s%s' % (
+    'OAUTH_REDIRECT_URI': 'http://localhost:8080',
+        '/admin/auth' % (
         'https://REPLACE_THIS_WITH_YOUR_APPLICATION_NAME.appspot.com OR http://localhost:8080',
         '/admin/auth')
 }
 
 # XSRF Settings
-XSRF_KEY = 'REPLACE THIS WITH A SECRET PHRASE THAT SHOULD NOT BE SHARED'
+XSRF_KEY = 'Owanatewe176'
